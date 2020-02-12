@@ -1,0 +1,69 @@
+<!-- 
+======================================================================
+ATENÇÃO, REMOVA OS COMENTÁRIOS ASSIM QUE PREENCHER TODO O PULL REQUEST
+======================================================================
+
+1) ATENÇÃO: Verifique caso você esteja fazendo o PR de forma correta.
+2) Verifique caso você realizou edições no branch do colega.
+3) Veja se todos os arquivos do exercício foram commitados corretamente.
+4) Caso haja algum imprevisto e você tenha deletado a sua pasta, não se desespere, peça ajudo no grupo que iremos solucionar para você.
+5) Caso haja alguma dúvida a parte, crie uma issue ou vá ao grupo que iremos te ajudar.
+
+ATENÇÃO, PARA ESTAS INFORMAÇÕES POIS SÃO EXTREMAMENTE IMPORTANTES
+No título do Pull Request (Title, o input acima desse que você está), você deve seguir desta forma:
+- [Módulo X] Exercício Y | Seu nome
+(Sendo X, o respectivo módulo que você está e Y o respectivo exercício)
+EX: [Módulo 2] Exercício 3 | Guilherme Almeida
+
+No título abaixo (com este #), você deve seguir este padrão de título aqui:
+# PR - Exercício X - Módulo Y
+
+-->
+
+<!--  -->
+
+# PR - Exercício X - Módulo Y
+
+## Informações
+
+**Nome**: <!-- Guilherme Almeida -->
+
+## Exercício
+
+**Tecnologias**: <!-- HTML, CSS, JS -->
+
+---
+
+**O que você achou do exercício**: <!-- Muito legal! -->
+
+---
+
+**Qual foi a dificuldade do exercício**:
+<!--
+ATENÇÃO, MARQUE SOMENTE UM!
+
+Preencha o campo da seguinte forma:
+- [x] Fácil
+- [ ] Mediano
+- [ ] Difícil
+- [ ] MUITO Difícil
+
+Deixe a estrutura pra marcar no campo de seleção desta mesma forma:
+[x] <- Selecionado
+[ ] <- Não selecionado
+-->
+
+- [ ] Fácil
+- [ ] Médiano
+- [ ] Difícil
+- [ ] **MUITO** Difícil
+
+---
+
+**Quais foram suas dificuldades no exercício?**
+<!-- Eu não sei! -->
+
+---
+
+## Você tem alguma reclamação em relação ao exercício
+<!-- Exercício maravilhoso, nota 10! -->
