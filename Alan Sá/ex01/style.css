@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont-calc {
+    display: inline-block;
+    float: left;
+    padding: 10px 50px;
+    background-color: rgb(71, 140, 209);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 43%;
+    height: 95vh;
+}
+
+.cont-conc {
+    display: inline-block;
+    float: right;
+    padding: 10px 30px;
+    background-color: rgb(71, 140, 209);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 43%;
+    height: 95vh;
+}
+
+p {
+    font-size: 24px;
+}
+
+.input1 {
+    width: 40px;
+}
+
+.calcMais {
+    padding: 30px;
+}
+
+.calcMenos {
+    padding: 30px;
+}
+
+.calcVezes {
+    padding: 30px;
+}
+
+.res1, .res2, .res3 {
+    margin-top: 20px;
+}
+
+.res5 {
+    font-size: 20px;
+    background-color: white;
+    color: rgb(71, 140, 209);
+}
+
+.infos, .tabela, .notas {
+    padding: 30px;
+}
+
+.input-notas {
+    display: block;
+    margin: 10px auto 0 auto;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont-calc">
+        <div>Calcular:</div>
+        <div class="calcMais">
+            <p>Soma:</p>
+            <input type="number" name="num1" id="num1" class="input1">
+            <span>+</span>
+            <input type="number" name="num2" id="num2" class="input1">
+            <button onclick="calcMais()">Calcular</button>
+            <div class="res1"></div>
+        </div>
+        <div class="calcMenos">
+            <p>Subtração:</p>
+            <input type="number" name="num3" id="num3" class="input1">
+            <span>-</span>
+            <input type="number" name="num4" id="num4" class="input1">
+            <button onclick="calcMenos()">Calcular</button>
+            <div class="res2"></div>
+        </div>
+        <div class="calcVezes">
+            <p>Multiplicação:</p>
+            <input type="number" name="num5" id="num5" class="input1">
+            <span>x</span>
+            <input type="number" name="num6" id="num6" class="input1">
+            <button onclick="calcVezes()">Calcular</button>
+            <div class="res3"></div>
+        </div>
+    </div>
+
+    <div class="cont-conc">
+        <div>Concatenar:</div>
+        <div class="infos">
+            <p>Quem é você?</p>
+            <input type="text" name="nome" id="input-nome" placeholder="Insira seu nome"><br>
+            <input type="number" name="idade" id="input-idade" placeholder="Idade"><br>
+            <input type="text" name="local" id="input-local" placeholder="Aonde você mora?">
+            <br>
+            <button onclick="quemeh()">Enviar</button>
+
+            <div class="res4">
+
+            </div>
+
+        </div>
+
+        <div class="tabela">
+            <p>Lista de nomes:</p>
+            <input type="text" name="nome" id="table-nome">
+            
+            <button onclick="add()">Adicionar</button>
+
+            <div class="res5">
+                
+            </div>
+
+        </div>
+
+        <div class="num">
+            <p>Lista de números:</p>
+            <input type="number" name="num1" id="input-num1" class="input-num">
+            
+            <button onclick="addnum()">Adicionar</button>
+            
+            <div class="res6">
+
+            </div>
+
+        </div>
+
+    </div>
+    
+<script src="script.js"></script>  
+</body>
+</html>
