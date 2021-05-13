@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 120px;
+  height: 60px;
+  border: none;
+  background-color: royalblue;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgb(100, 133, 231);
+  width: 180px;
+  height: 100px;
+  font-size: 2em;
+  color: white;
+}

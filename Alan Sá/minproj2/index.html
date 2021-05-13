@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minor Project 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="container">
+
+    <div id="form">
+      <form action="" id="formulario" name="form1">
+        <h1>Inscreva-se</h1>
+        <div id="cont-inpts">
+          <input type="text" name="nome" id="inpt-name" class="inpttext" placeholder="Insira seu nome completo" required><br>
+          <input type="email" name="email" id="inpt-email" class="inpttext" placeholder="Email" required><br>
+          <input type="number" name="idade" id="inpt-age" class="inpttext" placeholder="Idade" required><br>
+          <input type="text" name="ao_cpf" id="ao_cpf" class="inpttext" placeholder="CPF (somente números)" required onblur="formatarCampo(this);" maxlength="14"><br>
+          <input type="radio" name="genero" id="radio-h" value="male" checked>
+          <label for="radio-h">Homem</label><br>
+          <input type="radio" name="genero" id="radio-m" value="female">
+          <label for="radio-m">Mulher</label><br>
+          <input type="radio" name="genero" id="radio-other" value="other">
+          <label for="radio-other">Outro</label><br>
+          <div id="selectdiv">
+            <label for="inpt-state">Estado:</label>
+            <select name="estado" id="inpt-state">
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="SP">São Paulo</option>
+              <option value="MG">Minas Gerais</option>
+            </select><br>
+          </div>
+          <input type="checkbox" name="news" id="check-news">
+          <label for="check-news">Deseja receber novidades por email?</label><br>
+          <input type="checkbox" name="terms" id="check-terms" required>
+          <label for="check-terms">Li e aceito os termos de uso</label><br>
+          <input type="password" name="senha" id="inpt-password" class="inpttext" placeholder="Senha" required><br>
+          <input type="password" name="senhacheck" id="inpt-password-check" class="inpttext" placeholder="Confirme sua senha" required><br>
+          <div id="checkRes">
+          </div>
+        </div>
+        <div id="cont-btn"><button type="submit" id="btn-enviar" disabled="disable" onclick="validarInputs()">Enviar</button></div>
+            </div>
+      </form>
+
+  </div>
+<script src="script.js"></script> 
+</body>
+</html>

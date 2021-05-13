@@ -1,0 +1,16 @@
+@keyframes mov {
+  0% {top: 0px;}
+  50% {top: 400px;}
+  100% {top: 0px;}
+}
+
+#div-mov {
+  position: relative;
+  background-color: cadetblue;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  animation-name: mov;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
