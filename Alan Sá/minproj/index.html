@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minor Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="all">
+    <div id="container">
+      <p>Calculadora</p>
+      <input type="number" name="num1" id="input-num1"> <br>
+      <input type="number" name="num2" id="input-num2"> <br>
+      <div id="btns">
+        <button value="+" onclick="calc(this)">+</button>
+        <button value="-" onclick="calc(this)">-</button>
+        <button value="/" onclick="calc(this)">/</button>
+        <button value="*" onclick="calc(this)">x</button>
+      </div> <br>
+      <button id="btnlimpar" onclick="limpar()">Limpar</button>
+      <div id="cont-rescalc">
+          <div id="res-text">
+            <p id="rescalc">Resultado</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
