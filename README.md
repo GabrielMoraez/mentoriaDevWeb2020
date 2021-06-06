@@ -1,4 +1,4 @@
-# Mentoria Web Dev 2020
+# Mentoria Web Dev
 
 Olá, seja bem vindo ao mentorado de **Web Development**.
 Este aqui é seu guia para o enorme e belo mundo do desenvolvimento web.
