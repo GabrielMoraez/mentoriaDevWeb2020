@@ -1,0 +1,531 @@
+:root {
+  --white-full : #fff;
+  --blue-dark : #2B4B9F;
+  --blue : #2A4EEC;
+  --black : #303030;
+  --grey : #5C5C5C;
+  --box-grey : #DEDEDE;
+  --bg-grey : #F2F1F1;
+  --letter-grey : #C0C0C0;
+  --letter-grey-dark : #656565;
+
+  --font1 : 'PT Sans';
+  --font2 : 'Nunito';
+}
+#container-all {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+#menu {
+  background-color: var(--blue-dark);
+  width: 20%;
+  height: 100%;
+}
+#main {
+  background-color: var(--bg-grey);
+  width: fit-content;
+  height: 100%;
+}
+#top-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+#line-menu {
+  display: block;
+  content: "";
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 2px;
+  border-radius: 20px;
+  background-color: var(--white-full);
+}
+#menu-options {
+  margin-top: 80px;
+}
+.option {
+  display: block;
+  padding: 20px 30px;
+  color: var(--white-full);
+  font-family: var(--font1);
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+#line-menu2 {
+  display: block;
+  content: "";
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 90%;
+  height: 2px;
+  border-radius: 20px;
+  background-color: var(--white-full);
+}
+#footer-menu {
+  display: block;
+  margin-top: 220px;
+  width: 100%;
+}
+#btn-logout {
+  display: flex;
+  background-color: var(--white-full);
+  color: var(--blue-dark);
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font1);
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+}
+#btn-logout:hover {
+  background-color: var(--blue-dark);
+  color: #fff;
+  border: 3px solid var(--white-full);
+}
+
+ /* -- MENU CLOSED --  */
+
+ #menu-close {
+  background-color: var(--blue-dark);
+  width: 10%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0px 40px 0px;
+}
+#menu-closed-icon {
+  cursor: pointer;
+}
+.closed-menu{
+  display: none;
+}
+.opened-menu {
+  display: block;
+}
+
+ /* -- MAIN --  */
+
+#main {
+  width: 100%;
+  
+}
+#main-container {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#btn-vermais, #btn-vermenos {
+  margin: 20px 0px;
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; 
+}
+#button-mais, #button-menos {
+  background-color: var(--blue);
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: var(--white-full);
+  font-family: var(--font1);
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#ver-mais {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#btn-vermenos {
+  display: none;
+}
+#card1 {
+  width: 500px;
+  height: 300px;
+}
+#card2 {
+  width: 190px;
+  height: 300px;
+  background-color: var(--box-grey);
+}
+#card3 {
+  width: 190px;
+  height: 300px;
+  background-color: var(--box-grey);
+}
+#card4 {
+  margin-top: 60px;
+  width: 250px;
+  height: 200px;
+  background-color: var(--box-grey);
+}
+#card5 {
+  margin-top: 60px;
+  width: 250px;
+  height: 200px;
+  background-color: var(--box-grey);
+}
+#card6 {
+  margin-top: 60px;
+  width: 200px;
+  height: 200px;
+  background-color: var(--box-grey);
+}
+#card7 {
+  margin-top: 60px;
+  width: 200px;
+  height: 200px;
+  background-color: var(--box-grey);
+}
+#card8 {
+  margin-top: 60px;
+  width: 440px;
+  height: 400px;
+  background-color: var(--box-grey);
+}
+#card9 {
+  margin-top: 60px;
+  width: 200px;
+  height: 400px;
+  background-color: var(--box-grey);
+}
+#card10 {
+  margin-top: 60px;
+  width: 200px;
+  height: 400px;
+  background-color: var(--box-grey);
+}
+#card11 {
+  margin-top: 60px;
+  width: 500px;
+  height: 400px;
+  background-color: var(--box-grey);
+}
+#card12 {
+  margin-top: 60px;
+  width: 380px;
+  height: 400px;
+  background-color: var(--box-grey);
+}
+.card-title {
+  background-color:var(--box-grey);
+}
+.card-content {
+  background-color: var(--white-full);
+}
+.title-g {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--font2);
+  padding-left: 30px;
+}
+.title-m {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: var(--font2);
+  text-align: center;
+}
+.title-p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--font2);
+  text-align: center;
+}
+.gb24 {
+  font-size: 24px;
+  color: var(--grey);
+  font-weight: bold;
+}
+.bb24 {
+  font-size: 24px;
+  color: var(--black);
+  font-weight: bold;
+}
+.gb18 {
+  font-size: 18px;
+  color: var(--grey);
+  font-weight: bold;
+}
+.bb18 {
+  font-size: 18px;
+  color: var(--black);
+  font-weight: bold;
+}
+.gb14 {
+  font-size: 14px;
+  color: var(--grey);
+  font-weight: bold;
+}
+.bb14 {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: bold;
+}
+.padbott10 {
+  padding-bottom: 10px;
+}
+.padbott20 {
+  padding-bottom: 20px;
+}
+ /* -- CARD POSITIONING --  */
+
+#card1 {
+  box-sizing: border-box;
+  font-family: var(--font1);
+  font-weight: bold;
+}
+#card1-top {
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+#card1-bottom {
+  height: 80%;
+  display: flex;
+}
+#card1-bottom-left {
+  width: 40%;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#card1-bottom-center {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0px 40px 0px;
+}
+#line-card1 {
+  background-color: var(--grey);
+  width: 1px;
+  height: 90%;
+  margin-top: 2.5%;
+  margin-right: 20px;
+}
+#card1-bottom-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+#card2-top {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card2-bottom {
+  height: 80%;
+  font-family: var(--font1);
+}
+#card2-p1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#card2-p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px; 
+}
+#table-card2 td {
+  padding: 5px 0px 5px 10px;
+}
+#table-card2 th {
+  border-bottom: 5px solid rgb(255, 255, 255);
+  text-align: left;
+  padding: 5px 20px 5px 10px;
+  background-color: var(--box-grey);
+}
+.card3-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  background-color: var(--box-grey);
+}
+.card3-bottom {
+  height: 80%;
+  background-color: var(--white-full);
+  font-family: var(--font2);
+  font-weight: 500;
+}
+.card3-client {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--box-grey);
+}
+.card3-L {
+  display: inline-block;
+  width: 30%;
+}
+.card3-R {
+  display: inline-block;
+  width: 70%;
+}
+#img-card4 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card5-bottom {
+  display: flex;
+  align-items: center;
+}
+#card5-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 50%;
+}
+#card5-line {
+  display: inline-block;
+  background-color: var(--letter-grey);
+  width: 1px;
+  height: 90%;
+}
+#card5-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 50%;
+}
+#card6-top {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card6-bottom {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#table-card6 {
+  text-align: left;
+  padding-top: 20px;
+}
+#table-card6 th {
+  border-right: 1px solid var(--letter-grey);
+  padding: 5px 10px 5px 0px;
+}
+#table-card6 td {
+  padding-left: 10px;
+}
+#card7-icons {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#card7-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#card7-line {
+  width: 1px;
+  height: 70px;
+  margin-top: 10px;
+  background-color: var(--letter-grey);
+  content: "";
+}
+.card7-data {
+  padding-top: 30px;
+}
+#card8-bottom {
+  display: flex;
+  padding-left: 10px;
+}
+.card8-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 10px;
+}
+.line-card8 {
+  width: 1px;
+  height: 80%;
+  background-color: var(--letter-grey);
+}
+.card9-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card9-10 div {
+  padding: 15px 0px;
+}
+.card9-10-info {
+  text-align: center;
+}
+.card9-10-info img {
+  padding-bottom: 5px;
+}
+#card11-bottom {
+  background-image: url(../assets/dashboard/image\ 29.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card12-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#table-card12 {
+  width: 90%;
+  height: 90%;
+  text-align: center;
+}
+#table-card12 th, #table-card12 td {
+  border: 1px solid var(--letter-grey);
+  padding: 8px 10px;
+}
+.bggrey {
+  background-color: var(--box-grey);
+}
+
+@media screen and (min-width: 1440px) {
+  #main-container {
+    width: 100%;
+    padding: 40px 120px;
+  }
+}

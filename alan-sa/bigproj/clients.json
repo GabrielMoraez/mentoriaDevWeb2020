@@ -1,0 +1,21 @@
+{
+  "clients" : [ {
+    "name" : "Carlos Morais Mesquita",
+    "cpf" : "174.221.321-87",
+    "id" : "001",
+    "email" : "carlos1990@gmail.com",
+    "tel" : "(21)9191-6563",
+    "city" : "Rio de Janeiro",
+    "estate" : "RJ"
+  },
+  {
+    "name" : "Pedro Costa Marques",
+    "cpf" : "131.412.887-94",
+    "id" : "002",
+    "email" : "pedrinho@gmail.com",
+    "tel" : "(21)9444-3578",
+    "city" : "Rio de Janeiro",
+    "estate" : "RJ"
+  }
+  ]
+}

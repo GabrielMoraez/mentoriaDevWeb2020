@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Onyx</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="home-style.css"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="container-all">
+    <div id="menu">
+      <div id="top-menu">
+        <img src="../assets/dashboard/Group 1.png" alt="" id="logo">
+        <img src="../assets/dashboard/Group 13.svg" alt="" id="menu-icon">
+      </div>
+      <span id="line-menu"></span>
+
+      <div id="menu-options">
+        <div class="menu-hover">
+          <a href="../dashboard/index.html" class="option"><div>Home</div></a>
+          <span id="line-menu2"></span>
+        </div>
+        <div class="menu-hover">
+          <a href="../profile/index.html" class="option"><div>Meu Perfil</div></a>
+          <span id="line-menu2"></span>
+        </div>
+        <div class="menu-hover">
+          <a href="../clients/index.html" class="option"><div>Clientes</div></a>
+          <span id="line-menu2"></span>
+        </div>
+      </div>
+      <div id="footer-menu">
+        <a href="../index.html" id="btn-logout">Logout</a>
+      </div>
+    </div>
+
+    <div id="menu-close">
+      <img src="../assets/dashboard/Group 14.svg" alt="" id="menu-closed-icon">
+      <a href="../index.html"><img src="../assets/dashboard/Group.png" alt="logout" id="logout-icon"></a>
+    </div>
+
+    <div id="main">
+      <div id="main-container">
+        <div id="card1">
+          <div id="card1-top" class="card-title">
+            <h2 class="title-g">Faturamento total</h2>
+          </div>
+          <div id="card1-bottom" class="card-content">
+            <div id="card1-bottom-left">
+                <div>
+                  <p class="gb24">Total:</p>
+                  <p class="bb24">R$35.000,00</p>
+                </div>
+                <img src="../assets/dashboard/image 11.png" alt="" style="width: 70%;">
+            </div>
+            <div id="card1-bottom-center">
+              <div>
+                <p class="gb18 padbott10">Lucro:</p>
+                <p class="bb18 padbott10">R$15.000,00</p>
+              </div>
+              <div>
+                <p class="gb18 padbott10">Custos de operação:</p>
+                <p class="bb18 padbott10">R$20.000,00</p>
+              </div>
+              <div>
+                <p class="gb18 padbott10">Caixa em dinheiro:</p>
+                <p class="bb18 padbott10">R$8.000,00</p>
+              </div>
+            </div>
+            <div id="line-card1"></div>
+            <div id="card1-bottom-right">
+              <div class="padbott20">
+                <p class="gb18 padbott10">Mês anterior:</p>
+                <p class="bb18 padbott10">R$42.800,00</p>
+              </div>
+              <div>
+                <p class="gb18 padbott10">Mesmo período no ano anterior:</p>
+                <p class="bb18 padbott10">R$38.200,00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="card2">
+          <div class="card-title" id="card2-top">
+            <p class="title-m">Mais vendidos</p>
+          </div>
+          <div class="card-content" id="card2-bottom">
+            <div id="card2-p1">
+              <img src="../assets/dashboard/pie-chart 1.png" alt="" style="width: 60%;">
+            </div>
+            <div id="card2-p2">
+              <table id="table-card2">
+                <tr>
+                  <th class="gb14">Capas</th>
+                  <td class="bb14">83 unid.</td>
+                </tr>
+                <tr>
+                  <th class="gb14">Bateria</th>
+                  <td class="bb14">54 unid.</td>
+                </tr>
+                <tr>
+                  <th class="gb14">Carregador</th>
+                  <td class="bb14">30 unid.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="card3">
+          <div class="card3-top">
+            <p class="title-m">Top Clientes</p>
+          </div>
+          <div class="card3-bottom">
+            <div id="card3-client1" class="card3-client">
+              <div class="card3-L">
+                <img src="../assets/dashboard/image 12.png" alt="">
+                <p class="bb14" style="padding-bottom: 5px;">ID:232</p>
+              </div>
+              <div class="card3-R">
+                <p>Marcos Silva dos Santos</p>
+              </div>
+            </div>
+            <div id="card3-client2" class="card3-client">
+              <div class="card3-L">
+                <img src="../assets/dashboard/image 12.png" alt="">
+                <p class="bb14" style="padding-bottom: 5px;">ID:232</p>
+              </div>
+              <div class="card3-R">
+                <p>Marcos Silva dos Santos</p>
+              </div>
+            </div>
+            <div id="card3-client3" class="card3-client">
+              <div class="card3-L">
+                <img src="../assets/dashboard/image 12.png" alt="">
+                <p class="bb14" style="padding-bottom: 5px;">ID:232</p>
+              </div>
+              <div class="card3-R">
+                <p>Marcos Silva dos Santos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="card4">
+          <div class="card3-top">
+            <p class="title-p">Dados de Faturamento</p>
+          </div>
+          <div class="card3-bottom">
+            <div id="img-card4"><img src="../assets/dashboard/Group 15.png" alt=""></div>
+          </div>
+        </div>
+        <div id="card5">
+          <div class="card3-top">
+            <p class="title-m">Metas</p>
+          </div>          
+          <div id="card5-bottom" class="card3-bottom">
+            <div id="card5-left">
+              <div>
+                <p class="gb14">Meta Mensal:</p>
+                <p class="bb14">R$42.000,00</p>
+              </div>
+              <div>
+                <p class="gb14">Valor Atual:</p>
+                <p class="bb14">R$38.000,00</p>
+              </div>
+            </div>
+            <div id="card5-line"></div>
+            <div id="card5-right">
+              <div>
+                <p class="gb14">Sua Meta:</p>
+                <p class="bb14">R$7.000,00</p>
+              </div>
+              <div>
+                <p class="gb14">Valor Atual:</p>
+                <p class="bb14">R$6.000,00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="card6">
+          <div class="card3-top">
+            <p class="title-m">Estados</p>
+          </div>
+          <div class="card3-bottom">
+            <div id="card6-top">
+             <img src="../assets/dashboard/image 16.png" alt=""> 
+            </div>
+            <div id="card6-bottom">
+              <table id="table-card6">
+                <tr>
+                  <th class="gb14">São Paulo</th>
+                  <td class="bb14">54%</td>
+                </tr>
+                <tr>
+                  <th class="gb14">Rio de Janeiro</th>
+                  <td class="bb14">26%</td>
+                </tr>
+                <tr>
+                  <th class="gb14">Minas Gerais</th>
+                  <td class="bb14">20%</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="card7">
+          <div class="card3-top">
+            <p class="title-m">Gênero</p>
+          </div>
+          <div class="card3-bottom">
+            <div id="card7-icons">
+              <img src="../assets/dashboard/image 17.png" alt="">
+              <img src="../assets/dashboard/image 18.png" alt="">
+            </div>
+            <div id="card7-bottom">
+              <div class="card7-data">
+                <p class="gb14 padbott10">Homens</p>
+                <p class="bb18">54%</p>
+              </div>
+              <div id="card7-line"></div>
+              <div class="card7-data">
+                <p class="gb14 padbott10">Mulheres</p>
+                <p class="bb18">46%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="btn-vermais">
+          <div id="button-mais">Veja Mais</div>
+        </div>
+        <div id="ver-mais">
+          <div id="card8">
+            <div class="card3-top">
+              <p class="title-g" id="title-fornecedores">Fornecedores</p>
+            </div>
+            <div class="card3-bottom" id="card8-bottom">
+              <div class="card8-info">
+                <p class="bb18">Savic S.A.</p>
+                <p class="bb18">PETEC</p>
+                <p class="bb18">MTEC SP</p>
+                <p class="bb18">InfoTec S.A.</p>
+              </div>
+              <div style="display: flex; align-items: center; padding: 0px 10px;">
+                <div class="line-card8"></div>
+              </div>
+              <div class="card8-info">
+                <p class="bb14">50% dos Produtos</p>
+                <p class="bb14">20% dos Produtos</p>
+                <p class="bb14">15% dos Produtos</p>
+                <p class="bb14">15% dos Produtos</p>
+              </div>
+              <div style="display: flex; align-items: center; padding: 0px 10px;">
+                <div class="line-card8"></div>
+              </div>
+              <div class="card8-info">
+                <p class="bb14">R$38.000,00</p>
+                <p class="bb14">R$16.000,00</p>
+                <p class="bb14">R$10.000,00</p>
+                <p class="bb14">R$8.000,00</p>
+              </div>
+            </div>
+          </div>
+          <div id="card9">
+            <div class="card3-top">
+              <p class="title-m">Dados de Contato</p>
+            </div>
+            <div class="card3-bottom">
+              <div class="card9-10">
+                <div class="card9-10-info">
+                  <img src="../assets/dashboard/image 22.png" alt="">
+                  <p class="bb14">(21)9999-9999</p>
+                </div>
+                <div class="card9-10-info">
+                  <img src="../assets/dashboard/image 24.png" alt="">
+                  <p class="bb14">contato@onyx.com</p>
+                </div>
+                <div class="card9-10-info">
+                  <img src="../assets/dashboard/image 21.png" alt="">
+                  <p class="bb14">linkedin.com/onyx</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="card10">
+            <div class="card3-top">
+              <p class="title-m">Redes Sociais</p>
+            </div>
+            <div class="card3-bottom">
+              <div class="card9-10">
+                <div class="card9-10-info">
+                  <img src="../assets/dashboard/image 23.png" alt="">
+                  <p class="bb14">@onyxoficial</p>
+                </div>
+                <div class="card9-10-info">
+                  <img src="../assets/dashboard/image 27.png" alt="">
+                  <p class="bb14">youtube.com/ <br> onyxoficial</p>
+                </div>
+                <div class="card9-10-info">
+                  <img src="../assets/dashboard/image 28.png" alt="">
+                  <p class="bb14">Onyx Oficial</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="card11">
+            <div class="card3-top">
+              <p class="title-g">Boletos pendentes</p>
+            </div>
+            <div class="card3-bottom" id="card11-bottom">
+              <p class="gb24">Sem Boletos Pendentes</p>
+            </div>
+          </div>
+          <div id="card12">
+            <div class="card3-top">
+              <p class="title-m">Pagamentos Recentes</p>
+            </div>
+            <div class="card3-bottom" id="card12-bottom">
+              <table id="table-card12">
+                <tr class="bggrey bb18">
+                  <th>Categoria</th>
+                  <th>Dados</th>
+                  <th>Valor</th>
+                </tr>
+                <tr>
+                  <td>INSUMO</td>
+                  <td>TecLog cód.000203</td>
+                  <td class="bb14">R$3280</td>
+                  
+                </tr>
+                <tr class="bggrey">
+                  <td>INSUMO</td>
+                  <td>TecLog cód.000201</td>
+                  <td class="bb14">R$2700</td>
+                </tr>
+                <tr>
+                  <td>MANUTEN</td>
+                  <td>Limpex S.A</td>
+                  <td class="bb14">R$1200</td>
+                </tr>
+                <tr class="bggrey">
+                  <td>MANUTEN</td>
+                  <td>ArFlex S.A</td>
+                  <td class="bb14">R$890</td>
+                </tr>
+                <tr>
+                  <td>INSUMO</td>
+                  <td>Savic S.A cód.000193</td>
+                  <td class="bb14">R$7600</td>
+                </tr>
+                <tr class="bggrey">
+                  <td>MANUTEN</td>
+                  <td>Limpex S.A</td>
+                  <td class="bb14">R$1100</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="btn-vermenos" onclick="verMenos()">
+          <div id="button-menos">Veja Menos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="../menu-btn.js"></script>
+<script src="vermais.js"></script>  
+</body>
+</html>

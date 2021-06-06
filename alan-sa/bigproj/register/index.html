@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onyx - App</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="register-style.css"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="container-all">
+
+    <div id="banner-login">
+      <div id="left-side">
+        <div id="login-container">
+          <h1>Criar uma nova conta</h1>
+          <h2>Insira seus dados abaixo para criar seu perfil e acessar o aplicativo.</h2>
+
+          <div id="input-container">
+            <label for="name-inpt">Nome Completo</label>
+            <input type="text" name="login-inpt" id="name-inpt">
+            <label for="email-inpt">Email</label>
+            <input type="text" name="email-inpt" id="email-inpt">
+            <label for="cpf-inpt">CPF</label>
+            <input type="text" name="cpf-inpt" id="cpf-inpt">
+            <label for="pword-inpt">Senha</label>
+            <input type="text" name="pword-inpt" id="pword-inpt">
+          </div>
+
+          <div id="btn-container">
+            <button id="btn-reg" onclick="store()">Registrar</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="right-side">
+      </div>
+    </div>
+  </div>
+  
+  <a href="../index.html">
+    <div id="back-btn">
+      <img src="../assets/register/left-arrow.svg" alt="">
+    </div>
+  </a>
+
+<script src="register.js"></script> 
+</body>
+</html>
