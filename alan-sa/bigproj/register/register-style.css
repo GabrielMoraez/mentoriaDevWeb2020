@@ -1,0 +1,127 @@
+:root {
+  --white-full : #fff;
+  --blue-dark : #2B4B9F;
+  --blue : #2A4EEC;
+  --black : #303030;
+  --grey : #5C5C5C;
+  --box-grey : #DEDEDE;
+  --bg-grey : #F2F1F1;
+  --letter-grey : #C0C0C0;
+  --letter-grey-dark : #656565;
+
+  --font1 : 'PT Sans';
+  --font2 : 'Nunito';
+}
+
+#container-all {
+  background-color: var(--blue-dark);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#banner-login {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  display: flex;
+  border-radius: 50px;
+  overflow: hidden;
+}
+#left-side {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#right-side {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  /* background-color: royalblue; */
+  background-image: url(../assets/login/Group\ 12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#login-container {
+  /* background-color: royalblue; */
+  width: 80%;
+  height: 90%;
+  font-family: var(--font1);
+  padding: 20px;
+  margin-left: 40px;
+}
+#login-container h1 {
+  font-family: var(--font1);
+  font-size: 46px;
+  font-weight: bold;
+  color: var(--black);
+}
+#login-container h2 {
+  margin-top: 20px;
+  width: 80%;
+  font-family: var(--font2);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--black);
+}
+#input-container {
+  margin-top: 15px;
+}
+#login-container label {
+  font-family: var(--font1);
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  color: var(--grey);
+  margin-bottom: 10px;
+}
+#login-container input {
+  border-radius: 10px;
+  border: 3px solid var(--black);
+  width: 90%;
+  height: 30px;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+#btn-container {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+#btn-reg {
+  width: 40%;
+  height: 12%;
+  border-radius: 10px;
+  border: 3px solid var(--blue);
+  background-color: var(--white-full);
+  color: var(--blue);
+  font-family: var(--font1);
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#btn-reg:active {
+  transform: scale(0.95); 
+}
+#btn-reg:hover {
+  color: var(--white-full);
+  background-color: var(--blue);
+  transition: all 0.1s linear;
+}
+#back-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+#back-btn img {
+  width: 40px;
+}
